@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>jQuery Easy UI 04「李炎恢」</title>
+<meta charset="UTF-8" />
+<script type="text/javascript" src="easyui/jquery.min.js"></script>
+<script type="text/javascript" src="easyui/jquery.easyui.min.js"></script>
+<script type="text/javascript" src="easyui/locale/easyui-lang-zh_CN.js" ></script>
+<script type="text/javascript" src="js/index.js"></script>
+<link rel="stylesheet" type="text/css" href="easyui/themes/default/easyui.css" />
+<link rel="stylesheet" type="text/css" href="easyui/themes/icon.css" />
+</head>
+<body>
+
+
+<div id="dd" style="width:1200px;height:600px;background:black">
+	jQuery Easy UI 04「李炎恢」~放置元件
+	<br><br>01.放置元件名->droppable
+	<br><br>02.droppable事件,onDragEnter只触发一次 [顏色改變=>$(this).css('background', 'blue');]
+	<br><br>03.droppable事件,onDragOver会在不停的拖动中不停触发[顏色改變=>$(this).css('background', 'orange');],所以有Over就看不到Enter
+	<br><br>04.droppable事件,onDragLeav離開觸發[顏色改變=>$(this).css('background', 'green');]
+	<br><br>05.droppable事件,onDrop放置元件觸發[顏色改變=>$(this).css('background', 'maroon');]
+
+</div>
+
+<div id="box" style="width:150px;height:150px;background:#ccc;">
+	拖動元件->draggable
+</div>
+
+
+
+</body>
+</html>
