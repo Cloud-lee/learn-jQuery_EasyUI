@@ -1,0 +1,17 @@
+影片教學
+	01.jQuery_Easy基本介紹
+	02.jQuery_Easy基本使用(引用)介紹，使用對話盒(Dialog)顯示資訊
+	03.jQuery_Easy~Draggable拖動元件
+	04.jQuery_Easy~Droppable放置元件
+	05.jQuery_Easy~Resizable調整大小元件
+	06.jQuery_Easy~Tooltip提示文字框元件
+	07.jQuery_Easy~LinkButton圖+文字按鈕元件
+
+自己練習範例
+	01.使用「靜態法」建立Dialog並在網頁載入之時顯示出來
+	02.使用「js法」建立Dialog並在網頁載入之時顯示出來，首先HTML建立一的DIV ，之後利用JS爪取對應DIV內的id屬性將該DIV變成Dialog
+	03.使用「js法」建立Draggable拖動元件
+	04.使用「js法」建立Droppable放置元件
+	05.使用「js法」建立Resizable放置元件
+	06.使用「js法」建立Tooltip提示文字框元件
+	07.使用「js法」建立LinkButton圖+文字按鈕元件	
