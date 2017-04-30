@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>jQuery Easy UI 07「李炎恢」</title>
+<meta charset="UTF-8" />
+<script type="text/javascript" src="easyui/jquery.min.js"></script>
+<script type="text/javascript" src="easyui/jquery.easyui.min.js"></script>
+<script type="text/javascript" src="easyui/locale/easyui-lang-zh_CN.js" ></script>
+<script type="text/javascript" src="js/index.js"></script>
+<link rel="stylesheet" type="text/css" href="easyui/themes/default/easyui.css" />
+<link rel="stylesheet" type="text/css" href="easyui/themes/icon.css" />
+</head>
+<body style="margin:100px;">
+
+
+
+<div id="box"></div>
+<div style="width=1000px;higher=1000px">
+01.jQuery Easy UI 08「李炎恢」
+<br><br>
+02.利用ProgressBar元件實現進度顯示
+<br><br>
+03.該元件也是完全獨立的元件
+<br><br>
+04.	基本顯示使用
+$('#box').progressbar({<br>
+		width : 400,<br>
+		height : 30,<br>
+		value : 30,<br>
+	});
+<br><br>
+05.使用JS的TIMER 呼叫 ProgressBar的setValue方法 觸發 ProgressBar的 onChange事件函數<br>
+	$('#box').progressbar({<br>
+		width : 400,<br>
+		height : 30,<br>
+		value : 30,<br>
+		text : '{value}%',//元件內的顯示文字內容<br>
+		onChange : function (newValue, oldValue) {//事件反映函數，當值被修改時觸發<br>
+			console.log('新:' + newValue + '舊:' + oldValue);<br>
+		},<br>		
+	});	<br>
+	setTimeout(function () {//建立執行一次的JS的TIMER<br>
+		$('#box').progressbar('setValue', 70);//呼叫progressbar的setValue方法元件值改成70，此時會出發元件的onChange<br>
+	}, 1000);
+<br><br>
+06建立重複執行的JS的TIMER 呼叫 	progressbar的getValue方法抓取元件值，再利用setValue方法元件值+5，達到連續修改的動畫<br>
+	$('#box').progressbar({<br>
+		width : 400,<br>
+		height : 30,<br>
+		value : 5,<br>
+		text : '{value}%',//元件內的顯示文字內容<br>
+		onChange : function (newValue, oldValue) {//事件反映函數，當值被修改時觸發<br>
+			console.log('新:' + newValue + '舊:' + oldValue);<br>
+		},		<br>
+	});	<br>
+	setInterval(function () {//建立重複執行的JS的TIMER<br>
+		$('#box').progressbar('setValue', $('#box').progressbar('getValue') + 5);//呼叫progressbar的getValue方法抓取元件值，再利用setValue方法元件值+5，達到連續修改的動畫<br>
+	}, 500);<br>
+<br><br>
+</div>
+
+
+</body>
+</html>
