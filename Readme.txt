@@ -17,3 +17,4 @@
 	06.使用「js法」建立Tooltip提示文字框元件
 	07.使用「js法」建立LinkButton圖+文字按鈕元件	
 	08.使用「js法」建立ProgressBar進度條元件並且利用JS TIMER實作進度改變動畫
+	09.使用「js法」建立panel元件實現面板件並且利用內建AJAX機制可完成呼叫PHP程式(sleep+echo)
