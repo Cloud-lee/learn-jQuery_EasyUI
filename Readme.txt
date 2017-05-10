@@ -7,6 +7,8 @@
 	06.jQuery_Easy~Tooltip提示文字框元件
 	07.jQuery_Easy~LinkButton圖+文字按鈕元件
 	08.jQuery_Easy~ProgressBar進度條元件
+	09.jQuery_Easy~Panel元件(1)
+	10.jQuery_Easy~Panel元件(2)	
 
 自己練習範例
 	01.使用「靜態法」建立Dialog並在網頁載入之時顯示出來
@@ -18,3 +20,4 @@
 	07.使用「js法」建立LinkButton圖+文字按鈕元件	
 	08.使用「js法」建立ProgressBar進度條元件並且利用JS TIMER實作進度改變動畫
 	09.使用「js法」建立panel元件實現面板件並且利用內建AJAX機制可完成呼叫PHP程式(sleep+echo)
+	10.使用「js法」建立panel元件實現面板件並且測試panel元件相關事件函數
