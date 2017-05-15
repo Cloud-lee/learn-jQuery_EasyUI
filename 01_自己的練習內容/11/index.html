@@ -6,36 +6,33 @@
 <script type="text/javascript" src="easyui/jquery.min.js"></script>
 <script type="text/javascript" src="easyui/jquery.easyui.min.js"></script>
 <script type="text/javascript" src="easyui/locale/easyui-lang-zh_CN.js" ></script>
-<!-- <script type="text/javascript" src="js/index.js"></script> -->
-<script type="text/javascript" src="js/index_01.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
 <link rel="stylesheet" type="text/css" href="easyui/themes/default/easyui.css" />
 <link rel="stylesheet" type="text/css" href="easyui/themes/icon.css" />
 </head>
-<body><!--不預設邊框，因為此範例為panel範例-->
+<body>
 
-
+<!--
+<div id="box" class="easyui-tabs" style="width:500px;height:300px;">
+	<div title="tab1">tab1</div>
+	<div title="tab2">tab2</div>
+	<div title="tab3">tab3</div>
+</div>
+-->
 
 <div id="box">
-01.jQuery Easy UI 10「李炎恢」
-<br><br>
-02.利用panel元件實現面板
-<br><br>
-03.該元件也是完全獨立的元件
-<br><br>
-04.	基本顯示使用<br>
-	$('#box').panel({<br>
-		title : '面板(panel)',<br>
-	});<br>
-<br><br>
-05.panel有用事件函數測試 都在JS中
+	<div title="tab1">01.jQuery Easy UI 11「李炎恢」</div>
+	<div title="tab2">02.利用tabs元件實現頁籤</div>
+	<div title="tab3">03.實現基本頁籤切換事件偵測</div>
 </div>
 
-
-<div id="tt"><!--自訂按鈕-->
-	<a class="icon-add" onclick="javascript:alert('add')"></a>
+<!--
+<div id="tt">
+	<a class="icon-add" onclick="javascript:alert('add')">&nbsp;&nbsp;</a>
 	<a class="icon-edit" onclick="javascript:alert('edit')"></a>
 	<a class="icon-cut" onclick="javascript:alert('cut')"></a>
 </div>
+-->
 
 
 
