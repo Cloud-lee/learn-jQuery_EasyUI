@@ -9,6 +9,8 @@
 	08.jQuery_Easy~ProgressBar進度條元件
 	09.jQuery_Easy~Panel元件(1)
 	10.jQuery_Easy~Panel元件(2)	
+	11.jQuery_Easy~tabs元件(1)
+	12.jQuery_Easy~tabs元件(1)
 
 自己練習範例
 	01.使用「靜態法」建立Dialog並在網頁載入之時顯示出來
@@ -21,3 +23,5 @@
 	08.使用「js法」建立ProgressBar進度條元件並且利用JS TIMER實作進度改變動畫
 	09.使用「js法」建立panel元件實現面板件並且利用內建AJAX機制可完成呼叫PHP程式(sleep+echo)
 	10.使用「js法」建立panel元件實現面板件並且測試panel元件相關事件函數
+	11.使用「js法」建立tabs元件實現頁籤
+	12.使用「js法」動態增加頁籤
