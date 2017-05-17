@@ -11,6 +11,7 @@
 	10.jQuery_Easy~Panel元件(2)	
 	11.jQuery_Easy~tabs元件(1)
 	12.jQuery_Easy~tabs元件(1)
+	13.jQuery_Easy~Accordion
 
 自己練習範例
 	01.使用「靜態法」建立Dialog並在網頁載入之時顯示出來
@@ -25,3 +26,4 @@
 	10.使用「js法」建立panel元件實現面板件並且測試panel元件相關事件函數
 	11.使用「js法」建立tabs元件實現頁籤
 	12.使用「js法」動態增加頁籤
+	13.使用「js法」實現左側主功能選單模擬
